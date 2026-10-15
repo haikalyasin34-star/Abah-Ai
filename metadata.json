@@ -1,0 +1,6 @@
+{
+  "name": "Abah AI",
+  "description": "Teman Pintar, Jawaban Lebih Jelas. Asisten edukasi cerdas karya Muhammad Haikal Yasin (Aaba).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

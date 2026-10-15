@@ -1,0 +1,68 @@
+import { PopularQuestion } from '../types';
+
+export const POPULAR_QUESTIONS: PopularQuestion[] = [
+  {
+    id: 'math-1',
+    subject: 'Matematika',
+    iconType: 'math',
+    shortLabel: 'Jelaskan persamaan kuadrat...',
+    fullQuestion: 'Jelaskan apa itu persamaan kuadrat, bentuk umumnya, rumus ABC, dan berikan contoh langkah penyelesaiannya secara bertahap.',
+    badgeColor: 'from-blue-600 to-indigo-600',
+  },
+  {
+    id: 'science-1',
+    subject: 'IPA',
+    iconType: 'science',
+    shortLabel: 'Bagaimana proses fotosintesis...',
+    fullQuestion: 'Bagaimana proses fotosintesis pada tumbuhan terjadi, apa reaksi kimianya, dan apa faktor-faktor yang mempengaruhinya?',
+    badgeColor: 'from-emerald-600 to-teal-600',
+  },
+  {
+    id: 'physics-1',
+    subject: 'Fisika',
+    iconType: 'physics',
+    shortLabel: 'Jelaskan hukum Newton...',
+    fullQuestion: 'Jelaskan Hukum Newton I, II, dan III beserta rumus fisika dan contoh penerapannya dalam kehidupan sehari-hari.',
+    badgeColor: 'from-cyan-600 to-blue-600',
+  },
+  {
+    id: 'coding-1',
+    subject: 'Pemrograman',
+    iconType: 'coding',
+    shortLabel: 'Contoh kode Python untuk...',
+    fullQuestion: 'Buat contoh kode Python untuk memproses data angka, jelaskan setiap baris kodenya, dan bagaimana cara menjalankannya di komputer.',
+    badgeColor: 'from-violet-600 to-purple-600',
+  },
+  {
+    id: 'indonesian-1',
+    subject: 'Bahasa Indonesia',
+    iconType: 'indonesian',
+    shortLabel: 'Apa itu teks argumentasi...',
+    fullQuestion: 'Apa yang dimaksud dengan teks argumentasi, ciri-ciri strukturnya, dan berikan contoh paragraf argumentasi yang baik.',
+    badgeColor: 'from-sky-600 to-blue-700',
+  },
+  {
+    id: 'english-1',
+    subject: 'Bahasa Inggris',
+    iconType: 'english',
+    shortLabel: 'Jelaskan tenses dengan...',
+    fullQuestion: 'Jelaskan perbedaan Simple Present, Past Tense, dan Present Perfect Tense dengan rumus dan contoh kalimat positif, negatif, dan tanya.',
+    badgeColor: 'from-blue-500 to-cyan-600',
+  },
+  {
+    id: 'history-1',
+    subject: 'Sejarah',
+    iconType: 'history',
+    shortLabel: 'Apa penyebab peristiwa tersebut?',
+    fullQuestion: 'Jelaskan latar belakang dan peristiwa penting di balik Proklamasi Kemerdekaan Indonesia pada 17 Agustus 1945.',
+    badgeColor: 'from-amber-600 to-orange-600',
+  },
+  {
+    id: 'economy-1',
+    subject: 'Ekonomi',
+    iconType: 'economy',
+    shortLabel: 'Jelaskan permintaan dan penawaran.',
+    fullQuestion: 'Jelaskan hukum permintaan dan penawaran dalam ilmu ekonomi, bagaimana kurvanya terbentuk, dan faktor apa saja yang menggesernya.',
+    badgeColor: 'from-rose-600 to-pink-600',
+  },
+];
